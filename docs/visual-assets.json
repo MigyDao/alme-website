@@ -1,0 +1,182 @@
+[
+  {
+    "name": "platform-bed",
+    "source": "https://drive.google.com/file/d/1Uj4oeD1OBIcAMGdre5yvDOcIIf39W1sm/view",
+    "original": {
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2368159
+    },
+    "variants": [
+      {
+        "file": "platform-bed-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 24380
+      },
+      {
+        "file": "platform-bed-768.webp",
+        "width": 768,
+        "height": 576,
+        "bytes": 55760
+      },
+      {
+        "file": "platform-bed-1200.webp",
+        "width": 1200,
+        "height": 900,
+        "bytes": 108788
+      }
+    ],
+    "processing": "Full image; resized and WebP-compressed, without cropping, retouching or generated content."
+  },
+  {
+    "name": "modern-black-kitchen",
+    "source": "https://drive.google.com/file/d/1gzAltdjS9b8RMApdatlb-8ZB1lT6m9NH/view",
+    "original": {
+      "width": 1086,
+      "height": 1448,
+      "bytes": 2018390
+    },
+    "variants": [
+      {
+        "file": "modern-black-kitchen-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 25452
+      },
+      {
+        "file": "modern-black-kitchen-768.webp",
+        "width": 768,
+        "height": 1024,
+        "bytes": 56114
+      },
+      {
+        "file": "modern-black-kitchen-1086.webp",
+        "width": 1086,
+        "height": 1448,
+        "bytes": 97882
+      }
+    ],
+    "processing": "Full image; resized and WebP-compressed, without cropping, retouching or generated content."
+  },
+  {
+    "name": "outdoor-shade",
+    "source": "https://drive.google.com/file/d/1gGX24MJy8avW6wWB1nospYzZ2J76hrnE/view",
+    "original": {
+      "width": 1086,
+      "height": 1448,
+      "bytes": 2990909
+    },
+    "variants": [
+      {
+        "file": "outdoor-shade-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 74866
+      },
+      {
+        "file": "outdoor-shade-768.webp",
+        "width": 768,
+        "height": 1024,
+        "bytes": 185648
+      },
+      {
+        "file": "outdoor-shade-1086.webp",
+        "width": 1086,
+        "height": 1448,
+        "bytes": 327784
+      }
+    ],
+    "processing": "Full image; resized and WebP-compressed, without cropping, retouching or generated content."
+  },
+  {
+    "name": "hillside-garden",
+    "source": "https://drive.google.com/file/d/14YJ58LY1LfhISCrxyyt5oAqoq_J2Pom_/view",
+    "original": {
+      "width": 1448,
+      "height": 1086,
+      "bytes": 3475703
+    },
+    "variants": [
+      {
+        "file": "hillside-garden-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 71684
+      },
+      {
+        "file": "hillside-garden-768.webp",
+        "width": 768,
+        "height": 576,
+        "bytes": 172418
+      },
+      {
+        "file": "hillside-garden-1200.webp",
+        "width": 1200,
+        "height": 900,
+        "bytes": 359870
+      }
+    ],
+    "processing": "Full image; resized and WebP-compressed, without cropping, retouching or generated content."
+  },
+  {
+    "name": "end-grain-boards",
+    "source": "https://drive.google.com/file/d/1L9A5THz7qw7JhBOiVLDYcuyoXNJ4WyjT/view",
+    "original": {
+      "width": 1086,
+      "height": 1448,
+      "bytes": 3023587
+    },
+    "variants": [
+      {
+        "file": "end-grain-boards-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 96834
+      },
+      {
+        "file": "end-grain-boards-768.webp",
+        "width": 768,
+        "height": 1024,
+        "bytes": 201442
+      },
+      {
+        "file": "end-grain-boards-1086.webp",
+        "width": 1086,
+        "height": 1448,
+        "bytes": 310172
+      }
+    ],
+    "processing": "Full image; resized and WebP-compressed, without cropping, retouching or generated content."
+  },
+  {
+    "name": "design-capability-composite",
+    "source": "https://drive.google.com/file/d/1O9sGmCMEAI83jhpTdsqv61ysRcGSuR_H/view",
+    "original": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1956387
+    },
+    "variants": [
+      {
+        "file": "design-capability-composite-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 26186
+      },
+      {
+        "file": "design-capability-composite-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 52904
+      },
+      {
+        "file": "design-capability-composite-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 103316
+      }
+    ],
+    "processing": "Full image; resized and WebP-compressed, without cropping, retouching or generated content."
+  }
+]
