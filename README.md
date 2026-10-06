@@ -37,6 +37,14 @@ Raised Planters, Protective Plant Cages, Harvest Basket, Solar Dehydrator, Shade
 
 The cutting-board photograph is making evidence, not a catalogue listing. The primary order enquiry continues to `/start-a-project/`. Future Shop additions need a clear commercial scope and appropriate maturity/evidence, rather than automatic publication from the Offering database.
 
+## Production brand — v04
+
+The approved ALME v04 package supplies the horizontal header logo, white footer mark and small-icon artwork. Browser/Apple/site icons are proportional derivatives of the supplied small icon. The default 1200 × 630 social image uses the approved horizontal logo and primary positioning on warm cream; it contains no generated project photography. Every HTML page includes favicon, manifest and Open Graph/Twitter image metadata.
+
+The existing forest/leaf/cream/gold palette matches v04. Display headings use Bahnschrift when available, followed by Arial Narrow, Segoe UI and Arial; body text keeps Segoe UI/Arial. The site does not redistribute platform fonts or add external font requests. Accessible dark label colours and contrasting keyboard-focus rings take precedence over decorative leaf-green text.
+
+Source hashes, Drive references and derivative sizes are recorded in [`docs/brand-v04-assets.json`](docs/brand-v04-assets.json). To reproduce the web derivatives, extract the approved v04 ZIP and run `python scripts/prepare-brand-v04.py PATH_TO_EXTRACTED_V04_PACKAGE` with Pillow and the Windows display font available. Original production masters remain in Drive. The logo artwork is not redrawn; only transparent outer canvas, output size and icon backing are adapted for web use.
+
 ## Remaining launch work
 
-Keep the text brand treatment for this stage. Approved logo/social imagery, the separate Tally intake integration, real-device mail/telephone/WhatsApp handoffs, public-link/QR review and the V1 launch cutover remain separate work. Passing this imagery/conversion update does not itself authorize retiring V1 or expanding the Shop from the offering database.
+The separate Tally intake integration, real-device mail/telephone/WhatsApp handoffs, broader accessibility/performance review, public-link/QR audit and the V1 launch cutover remain separate work. This brand integration does not authorize retiring V1 or expanding the Shop from the offering database.

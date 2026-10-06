@@ -1,0 +1,64 @@
+{
+  "version": "v04",
+  "package": "https://drive.google.com/file/d/1w-791MLKZ0aKHxurG7rN3MzeUyF7tVBW/view",
+  "usage_guide": "https://drive.google.com/file/d/1ZEme5MB5OD2WGUJNzmFEbBMOhCwQzcO8/view",
+  "sources": [
+    {
+      "source": "01 Logos/ALME-Primary-Horizontal-Full-Colour-v04.png",
+      "sha256": "d22939f3b739d44b144998c0f7ac8b1454d5b6085f1fca8097334d8519762c5b",
+      "drive_url": "https://drive.google.com/file/d/1A78Vm58kCgE_PuLig3yN7n6sQjTjf9VA/view"
+    },
+    {
+      "source": "01 Logos/ALME-Small-Icon-Full-Colour-v04.png",
+      "sha256": "b63fde7683b06822b95958c44c6dd14396791b06e6bbe537afb68be0fdd6b3fc",
+      "drive_url": "https://drive.google.com/file/d/1yaFUoHRt8UiIUOeNQzW2crdm0sIKDCSK/view"
+    },
+    {
+      "source": "08 Source - Editable Assets/ALME-Mark-White-v04.svg",
+      "sha256": "58883f633503dd894ec4d4ee854f77c50f49395c83b5e915199709908636022b",
+      "drive_url": "https://drive.google.com/file/d/1q-2eHQkXD2IncGXv0T5zwp22Xy2miORE/view"
+    }
+  ],
+  "derivatives": "Header PNG resized with transparent outer canvas trimmed and clear space retained. Icon PNG/ICO derivatives preserve the supplied small-icon artwork, fitted proportionally onto cream. White SVG is byte-identical to the approved master. Share JPEG uses only approved logo pixels, brand colours and approved primary positioning.",
+  "outputs": [
+    {
+      "path": "public/assets/brand/alme-icon-v04-180.png",
+      "bytes": 11598,
+      "sha256": "d7afc98718e109617be6f994e40eaf6f68f53fe577c7f41ecc6b0228e9783b9f"
+    },
+    {
+      "path": "public/assets/brand/alme-icon-v04-192.png",
+      "bytes": 12503,
+      "sha256": "f256b3c540c75024ba8c53ec12460fea4e3f3475d16a3a965aaf85d7e9c218b3"
+    },
+    {
+      "path": "public/assets/brand/alme-icon-v04-32.png",
+      "bytes": 1441,
+      "sha256": "2ea8d71644303c22ee316ee68685349d2dcb1bb1e3d05810402497409b1d4962"
+    },
+    {
+      "path": "public/assets/brand/alme-icon-v04-512.png",
+      "bytes": 35470,
+      "sha256": "604683710aba2b99c79cf2c7bd4461f744f35af2e45524fbc3d6912b0988fe88"
+    },
+    {
+      "path": "public/assets/brand/alme-mark-white-v04.svg",
+      "bytes": 1677,
+      "sha256": "58883f633503dd894ec4d4ee854f77c50f49395c83b5e915199709908636022b"
+    },
+    {
+      "path": "public/assets/brand/alme-primary-horizontal-v04.png",
+      "bytes": 45945,
+      "sha256": "7a72034b122f1a0e2c5c1f0c30f2ca936b3ecbd93ad8908c94ad25c08d9eae4c"
+    },
+    {
+      "path": "public/assets/brand/alme-social-share-v04.jpg",
+      "bytes": 76143,
+      "sha256": "2d999c292da7ce55f5c4bf8659072e6a9be2cdbbf3884663df1cbf25ec3f1d97"
+    },
+    {
+      "path": "public/favicon.ico",
+      "bytes": 8798
+    }
+  ]
+}
