@@ -48,3 +48,22 @@ Source hashes, Drive references and derivative sizes are recorded in [`docs/bran
 ## Remaining launch work
 
 The separate Tally intake integration, real-device mail/telephone/WhatsApp handoffs, broader accessibility/performance review, public-link/QR audit and the V1 launch cutover remain separate work. This brand integration does not authorize retiring V1 or expanding the Shop from the offering database.
+
+
+## Website theme variants
+
+ALME Website V2 maintains two visual themes in the same codebase:
+
+- **Light / ALME v04** — production default and current public presentation.
+- **Dark / ALME Night Garden** — optional saved variant for future use.
+
+The production default is controlled by `DEFAULT_THEME` in `public/assets/js/theme.js` and intentionally remains `light`.
+
+Preview either maintained theme without changing the public default:
+
+- `?theme=light`
+- `?theme=dark`
+
+When an explicit preview is active, the theme parameter follows internal website navigation. There is intentionally no public theme-toggle control at this stage.
+
+The dark theme remains within ALME's v04 identity: deep forest-charcoal surfaces, warm cream text, leaf-green highlights and restrained Maker Gold accents. It is intentionally different from Miguel Francis's personal portfolio dark theme.
