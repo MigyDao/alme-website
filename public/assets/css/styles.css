@@ -97,3 +97,218 @@ h1,h2,h3{font-family:Bahnschrift,"Arial Narrow","Segoe UI",Arial,sans-serif}
 @media(max-width:800px){
   [data-theme="dark"] .primary-nav{background:#121914;border-bottom-color:var(--line)}
 }
+
+
+/* Local-First 3D Sketchpad — approved visual showcase */
+.sketchpad-section{padding-top:4rem}
+.sketchpad-showcase{
+  --sp-ink:#07142b;
+  --sp-muted:#61738b;
+  --sp-blue:#1d5f9c;
+  --sp-soft:#edf4fb;
+  --sp-line:#d7e2ed;
+  position:relative;
+  display:grid;
+  grid-template-columns:minmax(280px,.78fr) minmax(0,2fr);
+  grid-template-areas:"copy primary" "copy evolution" "meta meta";
+  gap:1.15rem 1.5rem;
+  overflow:hidden;
+  padding:1.8rem;
+  border:1px solid #dfe6ed;
+  border-radius:1.35rem;
+  background:
+    linear-gradient(132deg,transparent 0 77%,rgba(78,126,181,.045) 77% 84%,transparent 84%),
+    linear-gradient(42deg,transparent 0 82%,rgba(99,144,199,.04) 82% 89%,transparent 89%),
+    #f8fafc;
+  box-shadow:0 22px 60px rgba(20,47,75,.08);
+  color:var(--sp-ink);
+}
+.sketchpad-showcase::after{
+  content:"";
+  position:absolute;
+  width:340px;
+  height:340px;
+  left:-210px;
+  bottom:-230px;
+  transform:rotate(45deg);
+  border:1px solid rgba(83,130,188,.12);
+  background:rgba(109,155,211,.03);
+  pointer-events:none;
+}
+.sketchpad-copy{grid-area:copy;position:relative;z-index:1;min-width:0;padding:.2rem .1rem 0}
+.sketchpad-kicker{
+  margin:0 0 1rem;
+  color:#567ba7;
+  font-size:.78rem;
+  font-weight:800;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+}
+.sketchpad-status{
+  display:inline-flex;
+  margin:0 0 .8rem;
+  padding:.28rem .55rem;
+  border:1px solid #cad9e7;
+  border-radius:999px;
+  background:#fff;
+  color:#4c6680;
+  font-size:.72rem;
+  font-weight:700;
+  letter-spacing:.04em;
+}
+.sketchpad-showcase h2{
+  margin:.2rem 0 1rem;
+  color:var(--sp-ink);
+  font-family:Bahnschrift,"Arial Narrow","Segoe UI",Arial,sans-serif;
+  font-size:clamp(2.7rem,5.1vw,4.55rem);
+  line-height:.98;
+  letter-spacing:-.035em;
+}
+.sketchpad-summary{
+  margin:0 0 1.6rem;
+  color:var(--sp-muted);
+  font-size:1.05rem;
+  line-height:1.55;
+}
+.sketchpad-features{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:.7rem;
+}
+.sketchpad-feature{
+  display:flex;
+  align-items:center;
+  gap:.7rem;
+  min-height:52px;
+  padding:.62rem .75rem;
+  border:1px solid #e2eaf2;
+  border-radius:.8rem;
+  background:var(--sp-soft);
+  color:#17385e;
+  font-size:.88rem;
+  font-weight:650;
+  line-height:1.25;
+}
+.sketchpad-feature-icon{
+  display:grid;
+  place-items:center;
+  width:28px;
+  height:28px;
+  flex:0 0 28px;
+  color:#174e88;
+}
+.sketchpad-feature-icon svg{
+  width:24px;
+  height:24px;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.8;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+.sketchpad-primary-visual{
+  grid-area:primary;
+  margin:0;
+  min-width:0;
+  overflow:hidden;
+  border:1px solid #cdd7e2;
+  border-radius:1rem;
+  background:#101821;
+  box-shadow:0 12px 28px rgba(7,20,43,.16);
+}
+.sketchpad-primary-visual svg,
+.sketchpad-stage-visual svg{display:block;width:100%;height:auto}
+.sketchpad-evolution{
+  grid-area:evolution;
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);
+  gap:.8rem;
+  align-items:center;
+  min-width:0;
+}
+.sketchpad-stage{
+  overflow:hidden;
+  min-width:0;
+  border:1px solid var(--sp-line);
+  border-radius:1rem;
+  background:#fff;
+  box-shadow:0 10px 24px rgba(20,47,75,.07);
+}
+.sketchpad-stage-visual{
+  margin:0;
+  overflow:hidden;
+  background:#111820;
+  border-bottom:1px solid var(--sp-line);
+}
+.sketchpad-stage-copy{
+  display:grid;
+  grid-template-columns:auto minmax(0,1fr);
+  gap:.65rem;
+  align-items:start;
+  padding:.75rem .8rem .85rem;
+}
+.sketchpad-stage-number{
+  display:grid;
+  place-items:center;
+  width:34px;
+  height:34px;
+  border-radius:50%;
+  background:#e5f0fb;
+  color:#245d95;
+  font-weight:800;
+  font-size:.84rem;
+}
+.sketchpad-stage h3{
+  margin:.05rem 0 .18rem;
+  color:var(--sp-ink);
+  font-family:Bahnschrift,"Arial Narrow","Segoe UI",Arial,sans-serif;
+  font-size:1rem;
+}
+.sketchpad-stage p{margin:0;color:var(--sp-muted);font-size:.82rem;line-height:1.4}
+.sketchpad-progress-arrow{
+  color:#9ab2cd;
+  font-size:2rem;
+  line-height:1;
+  transform:translateY(-.25rem);
+}
+.sketchpad-meta{
+  grid-area:meta;
+  position:relative;
+  z-index:1;
+  display:flex;
+  justify-content:space-between;
+  gap:1rem 2rem;
+  align-items:center;
+  padding-top:.25rem;
+  border-top:1px solid #e5ebf1;
+}
+.sketchpad-meta p{margin:0;max-width:68ch;color:#566b82;font-size:.91rem}
+.sketchpad-meta a{color:#184f80}
+.sketchpad-meta a:hover{color:#a05315}
+.sketchpad-rd-note{margin-top:1.25rem}
+[data-theme="dark"] .sketchpad-showcase{color:var(--sp-ink)}
+[data-theme="dark"] .sketchpad-showcase h2,
+[data-theme="dark"] .sketchpad-showcase h3{color:var(--sp-ink)}
+[data-theme="dark"] .sketchpad-showcase a{color:#184f80}
+@media(max-width:980px){
+  .sketchpad-showcase{
+    grid-template-columns:minmax(0,1fr);
+    grid-template-areas:"copy" "primary" "evolution" "meta";
+    padding:1.35rem;
+  }
+  .sketchpad-copy{max-width:720px}
+  .sketchpad-showcase h2{font-size:clamp(2.6rem,9vw,4.3rem)}
+}
+@media(max-width:700px){
+  .sketchpad-section{padding-top:3rem}
+  .sketchpad-showcase{padding:1rem;border-radius:1rem}
+  .sketchpad-features{grid-template-columns:1fr}
+  .sketchpad-evolution{grid-template-columns:1fr;gap:.8rem}
+  .sketchpad-progress-arrow{display:none}
+  .sketchpad-meta{align-items:flex-start;flex-direction:column}
+}
+@media(max-width:420px){
+  .sketchpad-showcase h2{font-size:2.45rem}
+  .sketchpad-summary{font-size:1rem}
+  .sketchpad-feature{font-size:.86rem}
+}
