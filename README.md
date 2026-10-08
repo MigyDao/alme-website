@@ -18,7 +18,7 @@ Approved project photographs are delivered as responsive WebP assets with three 
 
 - Home: modular platform bed, outdoor shade and hillside garden, immediately after the four service families.
 - Work: modern black kitchen, platform bed, outdoor shade, hillside garden and the existing design-capability composite. The composite is explicitly distinguished from a photograph of a completed project; portfolio contribution caveats remain intact.
-- Shop: four curated offerings with the end-grain cutting-board photograph explicitly presented as craftsmanship evidence only.
+- Shop: four curated offerings, with an end-grain cutting-board photograph used as a visual example of ALME woodworking.
 
 Home follows Hero → service families → Selected work → How we work → Build for Useful Life → final enquiry CTA. Solutions, Work and About have closing conversion blocks; Research offers an email contribution route. Commercial and Community intake paths remain separate.
 
@@ -31,11 +31,9 @@ The public catalogue follows **Website V2 Shop Curation Plan — V1** and is ind
 - Growing & Garden: Custom Compost Systems, Custom Trellis & Climbing Supports, and Raised Garden Beds.
 - Resource & Resilience: Rainwater Collection Kit & Setup.
 
-Compost and trellis are custom/made-to-order capabilities. Their developing modular standard families are modelled and have not been field-tested. Raised-bed dimensions/materials and rainwater scope/component supply are agreed for each site; no standardized sizes, prices or validated variants are advertised.
+Compost and trellis are custom/made-to-order capabilities. Raised-bed dimensions/materials and rainwater scope/component supply are agreed for each site.
 
-Raised Planters, Protective Plant Cages, Harvest Basket, Solar Dehydrator, Shade Covering, Garden Work Seating, Combined Growing System, and Land Management & Gardening Consultancy are held from the Shop until their customer-facing scopes and supporting evidence are sufficiently defined. Their internal records remain intact. The shade installation remains on Work as portfolio evidence.
-
-The cutting-board photograph is making evidence, not a catalogue listing. The primary order enquiry continues to `/start-a-project/`. Future Shop additions need a clear commercial scope and appropriate maturity/evidence, rather than automatic publication from the Offering database.
+Shop curation is deliberate: only offerings selected for the current public catalogue are shown. The primary order enquiry continues to `/start-a-project/`. Future Shop additions should be reviewed before publication rather than being published automatically from the Offering database.
 
 ## Production brand — v04
 
