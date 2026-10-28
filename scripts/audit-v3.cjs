@@ -1,0 +1,5 @@
+const {chromium}=require('playwright');const fs=require('fs');
+(async()=>{const browser=await chromium.launch({channel:'msedge',headless:true});const results=[];
+for(const width of [360,768,1440])for(const route of ['/','/solutions/']){const page=await browser.newPage({viewport:{width,height:1000}});await page.goto('http://127.0.0.1:8873'+route);await page.addScriptTag({path:'C:/Users/migue/.codex/tmp/alme-v3-qa/node_modules/axe-core/axe.min.js'});const result=await page.evaluate(()=>axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa','best-practice']}}));results.push({width,route,violations:result.violations.map(v=>({id:v.id,impact:v.impact,description:v.description,nodes:v.nodes.map(n=>n.target)}))});await page.close();}
+fs.writeFileSync('prototypes/v3/accessibility.json',JSON.stringify(results,null,2));console.log(JSON.stringify(results));await browser.close();if(results.some(r=>r.violations.length))process.exitCode=1;
+})().catch(e=>{console.error(e);process.exit(1)});

@@ -1,0 +1,32 @@
+[
+  {
+    "width": 360,
+    "route": "/",
+    "violations": []
+  },
+  {
+    "width": 360,
+    "route": "/solutions/",
+    "violations": []
+  },
+  {
+    "width": 768,
+    "route": "/",
+    "violations": []
+  },
+  {
+    "width": 768,
+    "route": "/solutions/",
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "route": "/",
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "route": "/solutions/",
+    "violations": []
+  }
+]
