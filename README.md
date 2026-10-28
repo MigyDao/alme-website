@@ -65,3 +65,13 @@ Preview either maintained theme without changing the public default:
 When an explicit preview is active, the theme parameter follows internal website navigation. There is intentionally no public theme-toggle control at this stage.
 
 The dark theme remains within ALME's v04 identity: deep forest-charcoal surfaces, warm cream text, leaf-green highlights and restrained Maker Gold accents. It is intentionally different from Miguel Francis's personal portfolio dark theme.
+
+## Commercial architecture — October 28, 2026
+
+Home and Solutions now use the four current commercial offerings: Product Design & Development; Infrastructure Design & Build; Project Coordination, Property Care & Systems Support; ALME Products & Equipment. Previously published Solutions fragments remain available as supporting capability references.
+
+Property Care & Operational Oversight is local/on-site and scoped to checks, light maintenance within competency, issue documentation and coordination. Tenant/rental administration, sales, financial management and regulated property-management functions are excluded; specialist work goes to appropriate providers. Scope, access, cadence, safety and pricing are agreed per property.
+
+The Solutions property-care CTA leads to `/start-a-project/#property-care`, with service-specific email and WhatsApp messages. Tally is not embedded: its separate mapping/activation and end-to-end verification must pass first. Community intake stays separate.
+
+Validation: `node scripts/verify-commercial-alignment.cjs` requires Playwright and installed Microsoft Edge (or `BROWSER_CHANNEL`). Serve `public` at localhost:8765, or set `BASE_URL` to another site. It checks nine pages at 360/768/1280 px, internal links/fragments, offering headings, mobile menus, service context in contact URLs and JavaScript-disabled navigation. No compile step exists; Cloudflare's static build remains `exit 0` with output `public`.
