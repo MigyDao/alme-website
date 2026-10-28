@@ -1,0 +1,24 @@
+{
+  "build": "Static public directory; no compilation or package build configured. Asset integrity passes.",
+  "lint": "Git whitespace and Node syntax checks pass; no repository lint runner configured.",
+  "pages": [
+    {
+      "route": "index.html",
+      "existingMainCopy": "preserved in order",
+      "existingLinks": "preserved",
+      "uniqueIds": "pass",
+      "assets": "resolved",
+      "canonical": "preserved",
+      "nestedControls": "none"
+    },
+    {
+      "route": "solutions/index.html",
+      "existingMainCopy": "preserved in order",
+      "existingLinks": "preserved",
+      "uniqueIds": "pass",
+      "assets": "resolved",
+      "canonical": "preserved",
+      "nestedControls": "none"
+    }
+  ]
+}

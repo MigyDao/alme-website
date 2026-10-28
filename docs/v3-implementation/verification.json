@@ -1,0 +1,112 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "route": "/",
+      "pass": true
+    },
+    {
+      "width": 320,
+      "route": "/solutions/",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "route": "/",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "route": "/solutions/",
+      "pass": true
+    },
+    {
+      "width": 540,
+      "route": "/",
+      "pass": true
+    },
+    {
+      "width": 540,
+      "route": "/solutions/",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "route": "/solutions/",
+      "pass": true
+    },
+    {
+      "width": 800,
+      "route": "/",
+      "pass": true
+    },
+    {
+      "width": 800,
+      "route": "/solutions/",
+      "pass": true
+    },
+    {
+      "width": 801,
+      "route": "/",
+      "pass": true
+    },
+    {
+      "width": 801,
+      "route": "/solutions/",
+      "pass": true
+    },
+    {
+      "width": 1024,
+      "route": "/",
+      "pass": true
+    },
+    {
+      "width": 1024,
+      "route": "/solutions/",
+      "pass": true
+    },
+    {
+      "width": 1200,
+      "route": "/",
+      "pass": true
+    },
+    {
+      "width": 1200,
+      "route": "/solutions/",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "route": "/",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "route": "/solutions/",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "route": "/solutions/",
+      "pass": true
+    }
+  ],
+  "keyboardFocus": {
+    "style": "solid",
+    "width": "3px"
+  },
+  "reducedMotion": "pass",
+  "noJavaScriptNavigation": "pass",
+  "brandAssets": "byte-identical",
+  "pageErrors": []
+}
