@@ -31,6 +31,11 @@ version = hashlib.sha256(css.encode()).hexdigest()[:12]
 for route in ['index.html', 'solutions/index.html']:
     soup = BeautifulSoup((root / 'prototypes/v3/public' / route).read_text(encoding='utf-8'), 'html.parser')
     soup.select_one('meta[name="robots"]').decompose()
+    # Select the enhanced mobile layout before first paint, rather than waiting
+    # for deferred menu event handlers. With JavaScript off, navigation stays open.
+    navigation_mode = soup.new_tag('script')
+    navigation_mode.string = "document.documentElement.classList.add('js');"
+    soup.head.insert(0, navigation_mode)
     soup.select_one('link[href="/assets/v3/prototype.css"]')['href'] = f'/assets/v3/visual-system.css?v={version}'
     for svg in soup.select('svg[viewbox]'):
         svg['viewBox'] = svg.attrs.pop('viewbox')
