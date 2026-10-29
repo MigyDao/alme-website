@@ -1,5 +1,5 @@
 {
-  "base": "http://127.0.0.1:8765",
+  "base": "https://alme-website.pages.dev",
   "responsive": [
     {
       "width": 360,

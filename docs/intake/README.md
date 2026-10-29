@@ -24,3 +24,14 @@ The attachment upload initially required the user to enable the Chrome extension
 The page uses Tally's standard embed widget for dynamic height, a direct-form link for unavailable JavaScript, and visible email/WhatsApp alternatives. Service query prefill is forwarded to the form and direct-form alternative. Community intake and bounded property-care contact actions remain separate.
 
 Validation: `scripts/verify-intake.cjs` checks the live Tally embed at 360, 768 and 1280 px, dynamic resizing, editable service prefill, fallbacks, no-JavaScript access and browser errors. `scripts/verify-commercial-alignment.cjs` checks the surrounding site. No acceptance test includes customer data.
+
+## Production verification
+
+- Implementation commit: `3e11437edfb4984311d599b7173008f1377ea466`, pushed to `main`.
+- Cloudflare Pages check completed successfully; deployment `341b637c-31da-437f-84c4-1e0199699124`.
+- Live URL: https://alme-website.pages.dev/start-a-project/.
+- Production embed checks passed at 360, 768 and 1280 px, with dynamic heights 3416.5, 3020.5 and 3054 px; no horizontal overflow or page errors; service prefill and email/WhatsApp fallbacks present. JavaScript-disabled direct-form/email access passed.
+- Production surrounding-site checks: 27 layouts, 172 internal links, offering headings, property-care contact context, mobile menu and JavaScript-disabled navigation passed; zero page errors.
+- The deployed intake HTML and `assets/js/intake.js` returned HTTP 200 and matched local source after newline normalization.
+- Live embedded submission `TEST — ALME Tally production embed — 2026-10-29` arrived at 2026-10-29T16:12:38.282Z (11:12:38 AM Jamaica) in record `408adf602d0d816abe69ff3125b88e07`: Maker Project Consultation, Website / Form, New, consent true, coursework false, no automatic prospect or next action. The live embed showed the approved confirmation.
+- The production test was then moved to the existing review queue. A destination readback showed no new synthetic tests left in the inbound database; only the pre-existing Declined historical routing evidence remains.
