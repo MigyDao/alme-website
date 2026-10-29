@@ -19,6 +19,60 @@
       "assets": "resolved",
       "canonical": "preserved",
       "nestedControls": "none"
+    },
+    {
+      "route": "shop/index.html",
+      "existingMainCopy": "preserved in order",
+      "existingLinks": "preserved",
+      "uniqueIds": "pass",
+      "assets": "resolved",
+      "canonical": "preserved",
+      "nestedControls": "none"
+    },
+    {
+      "route": "work/index.html",
+      "existingMainCopy": "preserved in order",
+      "existingLinks": "preserved",
+      "uniqueIds": "pass",
+      "assets": "resolved",
+      "canonical": "preserved",
+      "nestedControls": "none"
+    },
+    {
+      "route": "about/index.html",
+      "existingMainCopy": "preserved in order",
+      "existingLinks": "preserved",
+      "uniqueIds": "pass",
+      "assets": "resolved",
+      "canonical": "preserved",
+      "nestedControls": "none"
+    },
+    {
+      "route": "community/index.html",
+      "existingMainCopy": "preserved in order",
+      "existingLinks": "preserved",
+      "uniqueIds": "pass",
+      "assets": "resolved",
+      "canonical": "preserved",
+      "nestedControls": "none"
+    },
+    {
+      "route": "research/index.html",
+      "existingMainCopy": "preserved in order",
+      "existingLinks": "preserved",
+      "uniqueIds": "pass",
+      "assets": "resolved",
+      "canonical": "preserved",
+      "nestedControls": "none"
+    },
+    {
+      "route": "start-a-project/index.html",
+      "existingMainCopy": "preserved in order",
+      "existingLinks": "preserved",
+      "uniqueIds": "pass",
+      "assets": "resolved",
+      "canonical": "preserved",
+      "nestedControls": "none"
     }
   ]
 }

@@ -2,9 +2,14 @@
 from pathlib import Path
 import subprocess, json, re
 from bs4 import BeautifulSoup
+from PIL import Image
 root = Path(__file__).resolve().parents[1]
+provenance=json.loads((root/'docs/v3-extension/artwork-provenance.json').read_text())
+board=Image.open(root/'docs/v3-extension'/provenance['source'])
+for name,box in provenance['processCrops'].items():
+    assert Image.open(root/f'public/assets/v3/process-{name}.png').tobytes()==board.crop(box).tobytes(), name
 results = []
-for route in ['index.html', 'solutions/index.html']:
+for route in ['index.html'] + [f'{r}/index.html' for r in ['solutions','shop','work','about','community','research','start-a-project']]:
     before = BeautifulSoup(subprocess.check_output(['git','show',f'4bb49cc:public/{route}'],cwd=root).decode(), 'html.parser')
     after = BeautifulSoup((root/'public'/route).read_text(encoding='utf-8'), 'html.parser')
     # Every existing text node and link survives, including commercial caveats.
@@ -23,6 +28,11 @@ for route in ['index.html', 'solutions/index.html']:
             assert (root/'public'/url.lstrip('/')).is_file(), url
     assert all(not a.select('a,button') for a in after.select('a'))
     assert all(e.get('aria-hidden')=='true' for e in after.select('svg.v3-icon'))
+    deployed = BeautifulSoup(subprocess.check_output(['git','show',f'5f6e69a:public/{route}'],cwd=root).decode(), 'html.parser')
+    # Keep the complete existing photographic/brand image metadata and footer copy.
+    for image in deployed.select('img'):
+        assert any(candidate.attrs == image.attrs for candidate in after.find_all('img',src=image['src'])), (route,image['src'])
+    assert deployed.select_one('.footer-contact').get_text()==after.select_one('.footer-contact').get_text(), route
     results.append({'route':route,'existingMainCopy':'preserved in order','existingLinks':'preserved','uniqueIds':'pass','assets':'resolved','canonical':'preserved','nestedControls':'none'})
 subprocess.run(['git','diff','--check'],cwd=root,check=True)
 for path in (root/'public/assets/js').glob('*.js'):

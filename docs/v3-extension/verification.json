@@ -1,0 +1,303 @@
+{
+  "results": [
+    {
+      "route": "/",
+      "theme": "light",
+      "width": 320,
+      "violations": []
+    },
+    {
+      "route": "/solutions/",
+      "theme": "light",
+      "width": 320,
+      "violations": []
+    },
+    {
+      "route": "/shop/",
+      "theme": "light",
+      "width": 320,
+      "violations": []
+    },
+    {
+      "route": "/work/",
+      "theme": "light",
+      "width": 320,
+      "violations": []
+    },
+    {
+      "route": "/about/",
+      "theme": "light",
+      "width": 320,
+      "violations": []
+    },
+    {
+      "route": "/community/",
+      "theme": "light",
+      "width": 320,
+      "violations": []
+    },
+    {
+      "route": "/research/",
+      "theme": "light",
+      "width": 320,
+      "violations": []
+    },
+    {
+      "route": "/start-a-project/",
+      "theme": "light",
+      "width": 320,
+      "violations": []
+    },
+    {
+      "route": "/",
+      "theme": "light",
+      "width": 768,
+      "violations": []
+    },
+    {
+      "route": "/solutions/",
+      "theme": "light",
+      "width": 768,
+      "violations": []
+    },
+    {
+      "route": "/shop/",
+      "theme": "light",
+      "width": 768,
+      "violations": []
+    },
+    {
+      "route": "/work/",
+      "theme": "light",
+      "width": 768,
+      "violations": []
+    },
+    {
+      "route": "/about/",
+      "theme": "light",
+      "width": 768,
+      "violations": []
+    },
+    {
+      "route": "/community/",
+      "theme": "light",
+      "width": 768,
+      "violations": []
+    },
+    {
+      "route": "/research/",
+      "theme": "light",
+      "width": 768,
+      "violations": []
+    },
+    {
+      "route": "/start-a-project/",
+      "theme": "light",
+      "width": 768,
+      "violations": []
+    },
+    {
+      "route": "/",
+      "theme": "light",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/solutions/",
+      "theme": "light",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/shop/",
+      "theme": "light",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/work/",
+      "theme": "light",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/about/",
+      "theme": "light",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/community/",
+      "theme": "light",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/research/",
+      "theme": "light",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/start-a-project/",
+      "theme": "light",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/",
+      "theme": "dark",
+      "width": 320,
+      "violations": []
+    },
+    {
+      "route": "/solutions/",
+      "theme": "dark",
+      "width": 320,
+      "violations": []
+    },
+    {
+      "route": "/shop/",
+      "theme": "dark",
+      "width": 320,
+      "violations": []
+    },
+    {
+      "route": "/work/",
+      "theme": "dark",
+      "width": 320,
+      "violations": []
+    },
+    {
+      "route": "/about/",
+      "theme": "dark",
+      "width": 320,
+      "violations": []
+    },
+    {
+      "route": "/community/",
+      "theme": "dark",
+      "width": 320,
+      "violations": []
+    },
+    {
+      "route": "/research/",
+      "theme": "dark",
+      "width": 320,
+      "violations": []
+    },
+    {
+      "route": "/start-a-project/",
+      "theme": "dark",
+      "width": 320,
+      "violations": []
+    },
+    {
+      "route": "/",
+      "theme": "dark",
+      "width": 768,
+      "violations": []
+    },
+    {
+      "route": "/solutions/",
+      "theme": "dark",
+      "width": 768,
+      "violations": []
+    },
+    {
+      "route": "/shop/",
+      "theme": "dark",
+      "width": 768,
+      "violations": []
+    },
+    {
+      "route": "/work/",
+      "theme": "dark",
+      "width": 768,
+      "violations": []
+    },
+    {
+      "route": "/about/",
+      "theme": "dark",
+      "width": 768,
+      "violations": []
+    },
+    {
+      "route": "/community/",
+      "theme": "dark",
+      "width": 768,
+      "violations": []
+    },
+    {
+      "route": "/research/",
+      "theme": "dark",
+      "width": 768,
+      "violations": []
+    },
+    {
+      "route": "/start-a-project/",
+      "theme": "dark",
+      "width": 768,
+      "violations": []
+    },
+    {
+      "route": "/",
+      "theme": "dark",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/solutions/",
+      "theme": "dark",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/shop/",
+      "theme": "dark",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/work/",
+      "theme": "dark",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/about/",
+      "theme": "dark",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/community/",
+      "theme": "dark",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/research/",
+      "theme": "dark",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/start-a-project/",
+      "theme": "dark",
+      "width": 1440,
+      "violations": []
+    }
+  ],
+  "pageErrors": [],
+  "noJavaScriptRoutes": [
+    "/",
+    "/solutions/",
+    "/shop/",
+    "/work/",
+    "/about/",
+    "/community/",
+    "/research/",
+    "/start-a-project/"
+  ]
+}
