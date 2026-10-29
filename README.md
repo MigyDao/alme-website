@@ -1,6 +1,6 @@
 # ALME Website V2
 
-The first V3 visual slice is implemented for Home and Solutions on the separate `implementation/v3-first-slice` branch. See [implementation evidence](docs/v3-implementation/README.md) for scope, checks and the final QA boundary. This work has not been deployed; V2 remains protected on `main`.
+The first V3 Home/Solutions slice was deployed at `5f6e69a`. The follow-up on `implementation/v3-first-slice` corrects the process artwork from the supplied design board and extends the shared V3 visual system to Shop, Work, About, Community, Research and Start a Project. See [extension evidence](docs/v3-extension/README.md) for checks and limitations. This follow-up has not been pushed or deployed.
 
 Framework-free static website for A Likkle More Eco: practical solutions for spaces, production and land.
 

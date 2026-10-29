@@ -1,0 +1,57 @@
+{
+  "source": "Eco Brand Website V3 Design Board(2).png",
+  "sha256": "678fb28b6cc26b3e90464541398f81727904601606ab70298cf33be3a117eb70",
+  "sourceDimensions": [
+    1536,
+    1024
+  ],
+  "processCrops": {
+    "understand": [
+      968,
+      226,
+      1034,
+      292
+    ],
+    "design": [
+      1058,
+      226,
+      1124,
+      292
+    ],
+    "prototype": [
+      1152,
+      226,
+      1218,
+      292
+    ],
+    "coordinate": [
+      1247,
+      226,
+      1313,
+      292
+    ],
+    "build": [
+      1342,
+      226,
+      1408,
+      292
+    ],
+    "improve": [
+      1436,
+      226,
+      1502,
+      292
+    ]
+  },
+  "treatment": "Exact source pixels including original circular backing; no redrawing or generated artwork.",
+  "routes": [
+    "index.html",
+    "solutions/index.html",
+    "shop/index.html",
+    "work/index.html",
+    "about/index.html",
+    "community/index.html",
+    "research/index.html",
+    "start-a-project/index.html"
+  ]
+}

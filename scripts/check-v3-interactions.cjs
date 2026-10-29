@@ -37,12 +37,13 @@ const cp=require('child_process');
   results.push({route,theme,keyboardFocus:'pass',escapeFocusReturn:'pass',touchTargets:'pass',reducedMotion:'pass',reflow320:'pass',axeViolations:0});
   await page.close();
  }
- // Every pre-existing public file other than the two approved pages stays identical.
+ // Only the eight approved pages and shared V3 assets may change.
  const files=cp.execFileSync('git',['ls-tree','-r','--name-only','4bb49cc','public'],{encoding:'utf8'}).trim().split('\n');
- for(const file of files.filter(f=>!['public/index.html','public/solutions/index.html'].includes(f))){
+ const approvedPages=['public/index.html',...['solutions','shop','work','about','community','research','start-a-project'].map(r=>`public/${r}/index.html`)];
+ for(const file of files.filter(f=>!approvedPages.includes(f))){
   const actual=fs.readFileSync(file),expected=cp.execFileSync('git',['show','4bb49cc:'+file]); assert(/\.(html|css|js|svg|txt|xml|webmanifest)$/.test(file)?actual.toString().replace(/\r\n/g,'\n')===expected.toString().replace(/\r\n/g,'\n'):actual.equals(expected),file);
  }
- fs.writeFileSync('docs/v3-implementation/interactions.json',JSON.stringify({results,unchangedBaselineFiles:files.length-2},null,2));
- console.log(JSON.stringify({results,unchangedBaselineFiles:files.length-2}));await browser.close();
+ fs.writeFileSync('docs/v3-implementation/interactions.json',JSON.stringify({results,unchangedBaselineFiles:files.length-approvedPages.length},null,2));
+ console.log(JSON.stringify({results,unchangedBaselineFiles:files.length-approvedPages.length}));await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});
 

@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "route": "/work/",
+      "theme": "light",
+      "width": 320,
+      "violations": []
+    },
+    {
+      "route": "/work/",
+      "theme": "light",
+      "width": 768,
+      "violations": []
+    },
+    {
+      "route": "/work/",
+      "theme": "light",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/work/",
+      "theme": "dark",
+      "width": 320,
+      "violations": []
+    },
+    {
+      "route": "/work/",
+      "theme": "dark",
+      "width": 768,
+      "violations": []
+    },
+    {
+      "route": "/work/",
+      "theme": "dark",
+      "width": 1440,
+      "violations": []
+    }
+  ],
+  "pageErrors": [],
+  "noJavaScriptRoutes": [
+    "/work/"
+  ]
+}
