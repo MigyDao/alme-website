@@ -47,7 +47,7 @@ Source hashes, Drive references and derivative sizes are recorded in [`docs/bran
 
 ## Remaining launch work
 
-The separate Tally intake integration, real-device mail/telephone/WhatsApp handoffs, broader accessibility/performance review, public-link/QR audit and the V1 launch cutover remain separate work. This brand integration does not authorize retiring V1 or expanding the Shop from the offering database.
+Real-device mail/telephone/WhatsApp handoffs, broader accessibility/performance review, public-link/QR audit and the V1 launch cutover remain separate work. This brand integration does not authorize retiring V1 or expanding the Shop from the offering database.
 
 
 ## Website theme variants
@@ -74,6 +74,6 @@ Home and Solutions now use the four current commercial offerings: Product Design
 
 Property Care & Operational Oversight is local/on-site and scoped to checks, light maintenance within competency, issue documentation and coordination. Tenant/rental administration, sales, financial management and regulated property-management functions are excluded; specialist work goes to appropriate providers. Scope, access, cadence, safety and pricing are agreed per property.
 
-The Solutions property-care CTA leads to `/start-a-project/#property-care`, with service-specific email and WhatsApp messages. Tally is not embedded: its separate mapping/activation and end-to-end verification must pass first. Community intake stays separate.
+The Solutions property-care CTA leads to `/start-a-project/#property-care`, with service-specific email and WhatsApp messages. The existing Tally commercial intake (ODWE0p) is embedded on Start a Project after the A–F acceptance tests passed on 29 October 2026. It routes through the native Notion integration to ALME Inbound Inquiries, with Source Website / Form and Review Status New. Attachments, editable service prefill, coursework safeguards, international remote enquiries, minimum required fields and no-consent validation were checked against actual submissions. Email and WhatsApp remain visible alternatives. Community intake stays separate.
 
 Validation: `node scripts/verify-commercial-alignment.cjs` requires Playwright and installed Microsoft Edge (or `BROWSER_CHANNEL`). Serve `public` at localhost:8765, or set `BASE_URL` to another site. It checks nine pages at 360/768/1280 px, internal links/fragments, offering headings, mobile menus, service context in contact URLs and JavaScript-disabled navigation. No compile step exists; Cloudflare's static build remains `exit 0` with output `public`.

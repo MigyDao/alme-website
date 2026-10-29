@@ -1,0 +1,33 @@
+{
+  "base": "http://127.0.0.1:8765",
+  "responsive": [
+    {
+      "width": 360,
+      "overflow": false,
+      "height": 3416.5,
+      "frameWidth": 320,
+      "prefill": "pass",
+      "fallbacks": "pass",
+      "pageErrors": []
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "height": 3020.5,
+      "frameWidth": 728,
+      "prefill": "pass",
+      "fallbacks": "pass",
+      "pageErrors": []
+    },
+    {
+      "width": 1280,
+      "overflow": false,
+      "height": 3054,
+      "frameWidth": 1080,
+      "prefill": "pass",
+      "fallbacks": "pass",
+      "pageErrors": []
+    }
+  ],
+  "noJavaScript": "direct form and email available"
+}
