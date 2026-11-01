@@ -23,10 +23,16 @@ const base=process.env.BASE_URL || 'http://127.0.0.1:8765';
    await page.waitForFunction(()=>document.querySelector('iframe').src.includes('service='));
    const service=new URL(page.url()).searchParams.get('service');
    if(new URL(await page.locator('iframe').getAttribute('src')).searchParams.get('service')!==service)throw Error('Prefill forwarding');
+   if(width===360||width===1280){
+    await page.locator('iframe').scrollIntoViewIfNeeded();
+    const combo=page.frameLocator('iframe').getByRole('combobox').first();await combo.waitFor();
+    await page.waitForFunction(()=>document.querySelector('iframe').getBoundingClientRect().height>1000);
+    if(await combo.inputValue()!==service)throw Error('Embedded prefill '+service);
+   }
    await page.goto(base+'/solutions/');
   }
   if(width===360||width===1280){await page.locator('#consultations').scrollIntoViewIfNeeded();await page.screenshot({path:'docs/service-pricing-v1/solutions-'+width+'.png'});}
-  results.push({width,consultationFlows:3,contacts:'service context retained',overflow:false});
+  results.push({width,consultationFlows:3,contacts:'service context retained',embeddedPrefill:[360,1280].includes(width)?'pass':'not repeated',overflow:false});
   await page.close();
  }
  const page=await browser.newPage();

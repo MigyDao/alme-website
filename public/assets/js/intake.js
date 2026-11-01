@@ -11,16 +11,21 @@
     'General / Other'
   ];
   if (services.includes(service)) {
-    embed.searchParams.set('service', service);
     if (direct) {
       const url = new URL(direct.href);
       url.searchParams.set('service', service);
       direct.href = url.href;
     }
   }
+  // Tally's widget forwards the page query itself; adding service here too
+  // creates duplicate parameters and prevents the dropdown prefill.
   frame.dataset.tallySrc = embed.href;
   // Let Tally initialize resizing; retain a scrollable form if its widget fails.
-  const fallback = () => { frame.src = embed.href; };
+  const fallback = () => {
+    const url = new URL(embed.href);
+    if (services.includes(service)) url.searchParams.set('service', service);
+    frame.src = url.href;
+  };
   const script = document.createElement('script');
   script.src = 'https://tally.so/widgets/embed.js';
   script.onload = () => {
