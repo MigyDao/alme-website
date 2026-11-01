@@ -1,0 +1,22 @@
+[
+  {
+    "width": 360,
+    "route": "/solutions/",
+    "violations": []
+  },
+  {
+    "width": 360,
+    "route": "/start-a-project/",
+    "violations": []
+  },
+  {
+    "width": 1280,
+    "route": "/solutions/",
+    "violations": []
+  },
+  {
+    "width": 1280,
+    "route": "/start-a-project/",
+    "violations": []
+  }
+]

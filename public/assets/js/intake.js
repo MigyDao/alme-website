@@ -7,7 +7,7 @@
   const services = [
     'Maker Project Consultation', '3D Modelling / Design',
     'Custom Build / Furniture', 'Growing / Land',
-    'Organization / Spatial Systems', 'Remote Design & Production Support',
+    'Organization / Spatial Systems',
     'General / Other'
   ];
   if (services.includes(service)) {
